@@ -1,3 +1,4 @@
+# prints out the list of students followed by a student count
 puts "The students of Villains Academy"
 puts "-------------"
 puts "Dr. Hannibal Lecter"
