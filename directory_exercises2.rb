@@ -45,3 +45,14 @@ students = input_students
 print_header
 print_by_cohort(students)
 print_footer(students)
+
+=begin
+# if you want the user to choose a single cohort to view
+def month_print(names)
+  puts "Which cohort would you like to see?"
+  month = gets.chomp
+  names_selective = names.select { |x| x[:cohort] == month }
+  names_selective.each { |y| puts "#{y[:name]} (#{y[:cohort]} cohort)"
+  }
+end
+=end
